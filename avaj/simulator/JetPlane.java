@@ -20,7 +20,7 @@ public class JetPlane extends Aircraft {
                 break;
             case "RAIN":
                 newLatitude += 5;
-                System.out.println("JetPlane#" + name + "(" + id + "): It's raining. Better watch out for lightings.");
+                System.out.println("JetPlane#" + name + "(" + id + "): It's raining.");
                 break;
             case "FOG":
                 newLatitude += 1;
@@ -28,7 +28,7 @@ public class JetPlane extends Aircraft {
                 break;
             case "SNOW":
                 newHeight -= 7;
-                System.out.println("JetPlane#" + name + "(" + id + "): OMG! Winter is coming!");
+                System.out.println("JetPlane#" + name + "(" + id + "): Winter is coming!");
                 break;
         }
 

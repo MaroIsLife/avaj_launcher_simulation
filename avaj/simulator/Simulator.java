@@ -6,6 +6,8 @@ import avaj.simulator.exceptions.InvalidScenarioException;
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
+import java.io.PrintStream;
+import java.io.FileOutputStream;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -13,6 +15,9 @@ import java.util.List;
 public class Simulator {
 
     public static void main(String[] args) {
+        PrintStream originalOut = System.out;
+        PrintStream fileOut = null;
+
         if (args.length != 1) {
             System.out.println("Error: Invalid number of arguments.");
             return;
@@ -21,15 +26,27 @@ public class Simulator {
         String filename = args[0];
 
         try {
+            fileOut = new PrintStream(new FileOutputStream("simulation.txt"));
+            System.setOut(fileOut);
+
             runSimulation(filename);
+
         } catch (InvalidScenarioException | InvalidAircraftTypeException e) {
+            System.setOut(originalOut);
             System.out.println("Error: " + e.getMessage());
         } catch (IOException e) {
+            System.setOut(originalOut);
             System.out.println("Error: Could not read file '" + filename + "'");
             System.out.println("Details: " + e.getMessage());
         }
         catch (Exception e) {
+            System.setOut(originalOut);
             System.out.println("An unexpected error occurred: " + e.getMessage());
+        } finally {
+            if (fileOut != null) {
+                fileOut.close();
+            }
+            System.setOut(originalOut);
         }
     }
 

@@ -16,19 +16,19 @@ public class Helicopter extends Aircraft {
             case "SUN":
                 newLongitude += 10;
                 newHeight += 2;
-                System.out.println("Helicopter#" + name + "(" + id + "): This is hot.");
+                System.out.println("Helicopter#" + name + "(" + id + "): Helicopter Helicopter f chmicha");
                 break;
             case "RAIN":
                 newLongitude += 5;
-                System.out.println("Helicopter#" + name + "(" + id + "): Rain makes flying difficult.");
+                System.out.println("Helicopter#" + name + "(" + id + "): Helicopter Helicopter under this romantic rain.");
                 break;
             case "FOG":
                 newLongitude += 1;
-                System.out.println("Helicopter#" + name + "(" + id + "): Can barely see through this fog.");
+                System.out.println("Helicopter#" + name + "(" + id + "): Helicopter Helicopter can't seen anything");
                 break;
             case "SNOW":
                 newHeight -= 12;
-                System.out.println("Helicopter#" + name + "(" + id + "): My rotor is going to freeze!");
+                System.out.println("Helicopter#" + name + "(" + id + "): Helicopter Helicopter in Snow");
                 break;
         }
 
