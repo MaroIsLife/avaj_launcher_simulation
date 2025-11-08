@@ -1,4 +1,4 @@
-package avaj.simulator.exceptions;
+package avaj.simulator;
 
 public class InvalidScenarioException extends Exception {
     public InvalidScenarioException(String message) {

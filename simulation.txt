@@ -1,0 +1,29 @@
+Tower says: Balloon#B1(1) registered to weather tower.
+Tower says: Balloon#B2(2) registered to weather tower.
+Tower says: JetPlane#J1(3) registered to weather tower.
+Tower says: Helicopter#H1(4) registered to weather tower.
+Tower says: Helicopter#H2(5) registered to weather tower.
+Tower says: Helicopter#H3(6) registered to weather tower.
+Tower says: Balloon#B3(7) registered to weather tower.
+Tower says: JetPlane#J2(8) registered to weather tower.
+Tower says: Helicopter#H4(9) registered to weather tower.
+Balloon#B1(1): Fog! I can't see anything.
+Balloon#B2(2): It's snowing. Is that even possible in MOROCCO???
+JetPlane#J1(3): Winter is coming!
+Helicopter#H1(4): Helicopter Helicopter in Snow
+Helicopter#H2(5): Helicopter Helicopter in Snow
+Helicopter#H3(6): Helicopter Helicopter can't seen anything
+Balloon#B3(7): Sunny day as usual!
+JetPlane#J2(8): Let's enjoy the good weather and take some pics.
+Helicopter#H4(9): Helicopter Helicopter under this romantic rain.
+Balloon#B1(1): Sunny day as usual!
+Balloon#B2(2): Rain nice bro
+JetPlane#J1(3): It's raining.
+Helicopter#H1(4): Helicopter Helicopter in Snow
+Helicopter#H1(4) landing.
+Tower says: Helicopter#H1(4) unregistered from weather tower.
+Helicopter#H2(5): Helicopter Helicopter in Snow
+Helicopter#H3(6): Helicopter Helicopter f chmicha
+Balloon#B3(7): Rain nice bro
+JetPlane#J2(8): Let's enjoy the good weather and take some pics.
+Helicopter#H4(9): Helicopter Helicopter can't seen anything

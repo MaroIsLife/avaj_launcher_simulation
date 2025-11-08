@@ -1,4 +1,4 @@
-package avaj.simulator.exceptions;
+package avaj.simulator;
 
 public class InvalidAircraftTypeException extends Exception {
     public InvalidAircraftTypeException(String type) {

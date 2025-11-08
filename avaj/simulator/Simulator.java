@@ -1,8 +1,5 @@
 package avaj.simulator;
 
-import avaj.simulator.exceptions.InvalidAircraftTypeException;
-import avaj.simulator.exceptions.InvalidScenarioException;
-
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;

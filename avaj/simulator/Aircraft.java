@@ -1,6 +1,6 @@
 package avaj.simulator;
 
-public abstract class Aircraft extends Flyable {
+public class Aircraft extends Flyable {
     protected long id;
     protected String name;
     protected Coordinates coordinates;
@@ -19,10 +19,7 @@ public abstract class Aircraft extends Flyable {
         return this.id;
     }
 
-    public abstract void updateConditions();
-
-    public void registerTower(WeatherTower p_tower) {
-        this.weatherTower = p_tower;
-        p_tower.register(this);
+    @Override
+    public void updateConditions() {
     }
 }

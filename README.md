@@ -1,1 +1,0 @@
-# avaj_launcher_simulation
